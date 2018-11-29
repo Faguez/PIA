@@ -1,0 +1,100 @@
+/*
+body {
+	font-size: 62.5%;
+	background-color: black;
+	font-family: Arial;
+}
+
+#wrap {
+    position: absolute;
+	top: 0; 
+	bottom: 0;
+	left: 0; 
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+			
+.botao {
+	width: 100%;
+	height: 32.6%;
+	font-family: roboto;
+	font-size: 6.0em;
+	margin-bottom: 2%;
+}
+			
+#menu {
+	width: 90%;
+	height: 90%;
+	border: 0.6em solid red;
+}
+
+#poli {
+	background-color: red;
+	button-style: none;
+}
+
+#samu {
+	background-color: white;
+}
+
+#bomb{
+	background-color: blue;
+}
+
+------ */
+body {
+	font-size: 62.5%;
+	background-color: black;
+	font-family: Arial;
+}
+
+#wrap {
+    position: absolute;
+	top: 0; 
+	bottom: 0;
+	left: 0; 
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+            
+            button{
+                border-radius: 10%;
+                border-style: outset;
+                border-width: 10px;
+                margin: auto;
+                border-color: springgreen;
+                height: 32.6%;
+                width: 100%;
+				
+				font-family: roboto;
+				font-size: 6.0em;
+                
+            }
+            
+            #poli:active{
+                border-color: red;
+                background-color: dimgray;
+            }
+            #samu:active{
+                border-color: red;
+                background-color: dimgray;
+            }
+            #bomb:active{
+                border-color: red;
+                background-color: dimgray;
+            }
+            
+            #poli{
+                margin-top: 1%;
+            }
+            #samu{
+				margin-top: 1%;
+                margin-bottom: 1%;
+            }
+            #bomb{
+                margin-bottom: 0px;    
+            } 

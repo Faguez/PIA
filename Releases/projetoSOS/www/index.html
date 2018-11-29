@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<meta charset="utf-8"/>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <title>Save Our Socity</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+        <script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript">
+			function alerta() {
+				alert("funcionou");
+			}
+			function btnCall190(){
+                window.plugins.CallNumber.callNumber(function(){}, function (e) {}, "1"+"9"+"0");
+            }
+			function btnCall193(){
+                window.plugins.CallNumber.callNumber(function(){}, function (e) {}, "193");
+            }
+			function btnCall192(){
+                window.plugins.CallNumber.callNumber(function(){}, function (e) {}, "192");
+            }
+			
+		</script>
+		
+	
+    </head>
+    <body>
+        <div id="wrap">
+				
+				<button id="poli" type="button" class="botao" style="margin-top: 0px;" onclick="btnCall190()">
+					POLÍCIA
+				</button>
+				
+				<button id="samu" type="button" class="botao" onclick="btnCall192()">
+					SAMU
+				</button>
+				
+				<button id="bomb" type="button" class="botao" onclick="btnCall193()" style="margin-bottom: 0px;">
+					BOMBEIROS
+				</button>
+
+        </div>
+    </body>
+</html>
